@@ -1,0 +1,110 @@
+\documentclass[DIN, pagenumber=footmiddle, parskip=half,
+	fromalign=right,  % Align sender to the right
+	fromphone=true, fromfax=false,
+	fromrule=false]{scrlttr2}
+ 
+\usepackage{ngerman}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{longtable}
+\usepackage{eurosym}
+
+\LoadLetterOption{template}
+\renewcommand*{\raggedsignature}{\raggedright} 
+
+% file contains sender-address
+\input{data.tex}
+
+
+%===================================
+\setkomavar{subject}[]{Angebot über die Entwicklung einer Smartphone-Anwendung}
+\setkomavar{yourmail}[Ihre Angebots-Nr.]{2010122621}
+\setkomavar{yourref}[Ihre Kundennummer]{262}
+\setkomavar{date}[Datum]{24. Februar 2011}
+
+
+\begin{document}
+
+%===================================
+% receiver
+\begin{letter}{
+	Max \& Mustermann Agency\\ 
+	z.Hd. Herrn Mustermann\\ \ \\
+	Musterstr. 12\\
+	12345 Musterstadt
+}
+
+%===================================
+\opening{Sehr geehrte Damen und Herren,}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tem 
+invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
+et justo duo dolores et ea rebum. 
+
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem 
+ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tem invidunt ut 
+labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
+dolores et ea rebum. 
+
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\\ 
+
+\closing{Mit freundlichen Grüßen}
+
+\setkomavar*{enclseparator}{Anlage} 
+\encl{Angebotsausarbeitung}
+
+\newpage
+
+
+%===================================
+\begin{longtable}{p{4cm}p{6.5cm}p{2cm}p{4cm}}
+	Ihre Kundennummer	& 262 & Datum & 24. November 2010\\
+	Ihre Angebots-Nr. & 2010122621 & Gültig bis & 31. Dezember 2010\\
+\end{longtable}
+
+
+%===================================
+\begin{longtable}{p{2.5cm}p{5.5cm}p{1cm}p{1cm}p{2.5cm}p{2.5cm}}
+	\hline 	
+	Ag.-Pos. & Bezeichnung & Menge & ME & Einzelpreis (exkl. MwSt.) & Gesamtpreis (exkl. MwSt.)\\
+	\hline 
+	
+	\textbf{Allgemein}\\
+	10 & At vero eos, kasd gubergren & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	20 & At vero eos, kasd gubergren  & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	\multicolumn{5}{r}{Zwischensumme Allgemein (exkl. MwSt.):} & 0,00 \euro{}\\
+	\\
+	
+	\textbf{Design}\\
+	30 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	40 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	50 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	60 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	\multicolumn{5}{r}{Zwischensumme iPhone (exkl. MwSt.):} & 0,00 \euro{}\\
+	\\
+	
+	\textbf{Programmierung}\\
+	70 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	80 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	90 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	100 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	110 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	120 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	130 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	\multicolumn{5}{r}{Zwischensumme Android (exkl. MwSt.):} & 0,00 \euro{}\\
+	\\
+	
+	\hline\hline 
+\end{longtable}
+
+%===================================
+\begin{longtable}{p{5.5cm}p{2.5cm}p{2.5cm}p{2cm}p{3cm}}
+	\hline Nettobetrag Gesamt & 19\% MwSt. & Versand & Verpackung & Bruttobetrag\\
+	\hline 
+	0,00 \euro{} & 0,00 \euro & 0,00 \euro & 0,00 \euro & 0,00 \euro{}\\
+	\hline\hline 	
+\end{longtable}
+
+
+\end{letter}
+\end{document}

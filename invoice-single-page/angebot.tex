@@ -1,0 +1,114 @@
+\documentclass[DIN, pagenumber=false, parskip=half,
+               fromalign=right, fromphone=true, fromfax=false,
+               fromrule=false]{scrlttr2}
+ 
+
+\usepackage{ngerman}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{longtable}
+\usepackage{eurosym}
+
+\LoadLetterOption{template}
+
+\newcommand{\stdlohn}[0]{11 \euro}
+
+\renewcommand*{\raggedsignature}{\raggedright} 
+
+\setkomavar{fromname}{YourCompany GmbH}
+\setkomavar{fromphone}{+49 (0) 123 / 456 78-9}
+\setkomavar{fromaddress}{Musterweg 3 \\ D-12345 Stuttgart}
+\setkomavar{frombank}{Volksbank Musterstadt \\ BLZ: 123 456 00 \\ \\ Kontonummer: 123 456 000\\Volksbank Musterstadt}
+
+\setkomavar{subject}[]{Angebot über die Erstellung einer Smartphone-Applikation}
+\setkomavar{yourmail}[Ihre Angebots-Nr.]{2011012631}
+\setkomavar{yourref}[Ihre Kundennummer]{263}
+\setkomavar{date}[Datum]{15. Januar 2011}
+
+
+%===================================
+% footer
+\firstfoot{
+	\parbox[t]{\textwidth}{\footnotesize 
+	
+	\begin{tabular}[t]{l@{}}
+		 \multicolumn{1}{@{}l@{}}{Firma:}\\ 
+		 YourCompany GmbH\\
+		 Musterweg 3, D-12345 Stuttgart\\ \\
+		 Telefon: \usekomavar{fromphone} \\
+		 E-Mail: info@yourcompany.de \\
+	\end{tabular}
+	 \hfill{}
+	 \begin{tabular}[t]{l@{}}
+		 \multicolumn{1}{@{}l@{}}{Rechtliche Informationen:}\\ 
+		Gerichtsstand Muster\\
+		Registernummer: HRB 123456\\ \\
+		
+		Geschäftsführer: Max Muster\\		
+		Ust.-ID-Nr.: DE1234567890\\
+	 \end{tabular}
+	 \hfill{}
+	 \begin{tabular}[t]{l@{}}
+		 \multicolumn{1}{@{}l@{}}{\usekomavar*{frombank}:}\\ 
+		 \usekomavar{frombank} 
+	 \end{tabular} 
+ }}
+
+\begin{document}
+
+ 
+%===================================
+% receiver
+\begin{letter}{
+	Max \& Mustermann Agency\\ 
+	z.Hd. Herrn Mustermann\\ \ \\
+	Musterstr. 12\\
+	12345 Musterstadt
+}
+
+\opening{\ }
+\vspace{-1.5cm}
+
+%===================================
+\begin{longtable}{p{2.5cm}p{5.5cm}p{1cm}p{1cm}p{2.5cm}p{2.5cm}}
+	\hline 	
+	Ag.-Pos. & Bezeichnung & Menge & ME & Einzelpreis (exkl. MwSt.) & Gesamtpreis (exkl. MwSt.)\\
+	\hline 
+	
+	\textbf{Allgemein}\\
+	10 & At vero eos, kasd gubergren & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	20 & At vero eos, kasd gubergren  & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	\multicolumn{5}{r}{Zwischensumme Allgemein (exkl. MwSt.):} & 0,00 \euro{}\\
+	\\
+	
+	\textbf{Design}\\
+	30 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	40 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	50 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	60 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	\multicolumn{5}{r}{Zwischensumme iPhone (exkl. MwSt.):} & 0,00 \euro{}\\
+	\\
+	
+	\textbf{Programmierung}\\
+	70 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	80 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	90 & Sed diam nonumy eirmod tem & 0 & Std & 0 \euro{} & 0,00 \euro{}\\
+	\multicolumn{5}{r}{Zwischensumme Android (exkl. MwSt.):} & 0,00 \euro{}\\
+	\\
+	
+	\hline\hline 
+\end{longtable}
+
+
+\begin{longtable}{p{5.5cm}p{2.5cm}p{2.5cm}p{2cm}p{3cm}}
+	\hline Nettobetrag Gesamt & 19\% MwSt. & Versand & Verpackung & Bruttobetrag\\
+	\hline 
+	0,00 \euro{} & 0,00 \euro & 0,00 \euro & 0,00 \euro & 0,00 \euro{}\\
+	\hline 
+	\hline 	
+\end{longtable}
+
+
+\end{letter}
+\end{document}

@@ -1,0 +1,32 @@
+\setkomavar{fromname}{YourCompany GmbH}
+\setkomavar{fromphone}{+49 (0) 123 / 456 78-9}
+\setkomavar{fromaddress}{Musterweg 3 \\ D-12345 Stuttgart}
+\setkomavar{frombank}{Volksbank Musterstadt \\ BLZ: 123 456 00 \\ \\ Kontonummer: 123 456 000\\Volksbank Musterstadt}
+
+\firstfoot{
+	\parbox[t]{\textwidth}{\footnotesize 
+	
+	\begin{tabular}[t]{l@{}}
+		 \multicolumn{1}{@{}l@{}}{Firma:}\\ 
+		 YourCompany GmbH\\
+		 Musterweg 3, D-12345 Stuttgart\\ \\
+		 Telefon: \usekomavar{fromphone} \\
+		 E-Mail: info@yourcompany.de \\
+	\end{tabular}
+	 \hfill{}
+	 \begin{tabular}[t]{l@{}}
+		 \multicolumn{1}{@{}l@{}}{Rechtliche Informationen:}\\ 
+		Gerichtsstand Muster\\
+		Registernummer: HRB 123456\\ \\
+		
+		Geschäftsführer: Max Muster\\		
+		Ust.-ID-Nr.: DE1234567890\\
+	 \end{tabular}
+	 \hfill{}
+	 \begin{tabular}[t]{l@{}}
+		 \multicolumn{1}{@{}l@{}}{\usekomavar*{frombank}:}\\ 
+		 \usekomavar{frombank} 
+	 \end{tabular} 
+ }}
+
+

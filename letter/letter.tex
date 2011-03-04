@@ -1,0 +1,56 @@
+\documentclass[DIN, pagenumber=false, parskip=half,%
+               fromalign=right, 
+               fromrule=false]{scrlttr2}
+
+
+\usepackage{ngerman}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\RequirePackage{graphicx}
+
+ 
+% if you have a word with just uppercase letter you should use the package soul
+% for better readability
+\usepackage{soul}
+\sodef\so{}{.14em}{.4em plus.1em minus .1em}{.4em plus.1em minus .1em}
+
+ 
+ % do not indent the signature
+\renewcommand*{\raggedsignature}{\raggedright} 
+
+ % the sender:
+\setkomavar{fromname}{Max Muster}
+\setkomavar{fromaddress}{Musterweg 3 \\ 89075 Ulm}
+\setkomavar{signature}{Max Muster \\ Geschäftsführung}
+
+ 
+\begin{document}
+ 
+% the receiver:
+\begin{letter}{\so{MAXIMUS} GmbH \\ Musterstr. 2 \\ 89075 Ulm}
+
+
+%===================================
+\opening{Sehr geehrte Damen und Herren,}
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tem 
+invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
+et justo duo dolores et ea rebum. 
+
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem 
+ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tem invidunt ut 
+labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
+dolores et ea rebum. 
+
+\closing{Mit freundlichen Grüßen}
+
+
+%===================================
+\setkomavar*{enclseparator}{Anlage} 
+\encl{Angebotsausarbeitung}
+
+
+\end{letter}
+ 
+\end{document}
