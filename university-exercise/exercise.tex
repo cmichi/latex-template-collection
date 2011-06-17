@@ -1,0 +1,89 @@
+\documentclass[DIN, pagenumber=false, fontsize=11pt, parskip=half]{scrartcl}
+
+\usepackage{ngerman}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+
+% for matlab code
+% bw = blackwhite - optimized for print, otherwise source is colored
+\usepackage[framed,numbered,bw]{mcode}
+
+% for other code
+%\usepackage{listings}
+
+\setlength{\parindent}{0em}
+
+% set section in CM
+\setkomafont{section}{\normalfont\bfseries\Large}
+
+\newcommand{\mytitle}[1]{{\noindent\Large\textbf{#1}}}
+\newcommand{\mysection}[1]{\textbf{\section*{#1}}}
+\newcommand{\mysubsection}[2]{\romannumeral #1) #2}
+
+
+%===================================
+\begin{document}
+
+\noindent\textbf{Informationssysteme} \hfill \textbf{Universität Ulm}\\
+SoSe 2011 \hfill Michael Müller\\
+
+\mytitle{Übungsblatt 4 \hfill \today}
+
+
+%===================================
+\mysection{Aufgabe 4-1: Gruppierungsfunktionen}
+
+\mysubsection{1}{SQL-Abfrage}
+\begin{lstlisting}
+SELECT 
+	TeileNr, Farbe, MIN(Preis) AS niedrigster_preis, 
+	MAX(Preis) AS hoechster_preis, 
+	MAX(Preis) - MIN(Preis) AS Differenz 
+FROM 
+	Liefert 
+WHERE 
+	LiefNr <> 0
+GROUP BY 
+	TeileNr, Farbe 
+\end{lstlisting}
+
+\mysubsection{2}{SQL-Abfrage}
+\begin{lstlisting}
+SELECT 
+	TeileNr
+FROM 
+	Liefert 
+\end{lstlisting}
+
+
+%===================================
+\mysection{Aufgabe 4-2: NULL-Werte}
+\begin{tabular}{c||c|c|c}
+or & T & U & F\\
+\hline
+\hline
+T & T & T & T \\
+\hline
+U & T & U & U \\
+\hline
+F & T & U & F \\
+\end{tabular} \hspace*{1cm}
+\begin{tabular}{c||c|c|c}
+and & T & U & F\\
+\hline
+\hline
+T & T & U & F \\
+\hline
+U & U & U & F \\
+\hline
+F & F & F & F \\
+\end{tabular}
+
+
+%===================================
+\mysection{Aufgabe 4-3: Lorem ipsum}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+
+\end{document}
