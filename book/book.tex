@@ -1,0 +1,87 @@
+%
+% Body text font is Palatino!
+%
+
+\documentclass[a5paper,pagesize,10pt,bibtotoc,pointlessnumbers,
+normalheadings,DIV=9,twoside=false]{scrbook}
+
+% twoside, openright
+\KOMAoptions{DIV=last}
+
+\usepackage{trajan}
+ 
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[babel,german=guillemets]{csquotes}
+
+\usepackage[sc]{mathpazo}
+\linespread{1.05} 
+
+\usepackage{verbatim} % for comments
+\usepackage{listings} % for comments
+
+%\setlength{\parindent}{10pt}
+%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
+%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
+
+\usepackage{blindtext}
+\newcommand{\q}[1]{>>\textit{#1}<<}
+
+\title{A book title}   
+\author{Author Name} 
+\date{\today} 
+
+\begin{document}
+
+
+%=========================================
+\begin{titlepage}
+		\centering{
+			{\fontsize{40}{48}\selectfont 
+			A book title}
+		}\\
+			
+		\vspace{10mm}
+		\centering{\Large{Author Name}}\\
+		\vspace{\fill}
+		\centering \large{2011}
+\end{titlepage}
+
+
+%=========================================
+\newpage{}
+\thispagestyle {empty}
+
+\vspace*{2cm}
+
+\begin{center}
+	\Large{\parbox{10cm}{
+		\begin{raggedright}
+		{\Large 
+			\textit{Do what you think is interesting, 
+			do something that you think is fun and worthwhile, 
+			because otherwise you won’t do it well anyway.}
+		}
+	
+		\vspace{.5cm}\hfill{---Brian W. Kernighan}
+		\end{raggedright}
+	}
+}
+\end{center}
+
+\newpage
+
+
+%=========================================
+\blinddocument
+
+
+%=========================================
+\begin{comment}
+Just some notes, not visible in pdf.
+\end{comment}
+
+
+\end{document}
