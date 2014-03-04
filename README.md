@@ -33,3 +33,9 @@ To compile the house.mp use ``mpost house.mp''.
 
 ![Timesheet](https://github.com/cmichi/latex-template-collection/raw/master/images/timesheet.png)
 
+
+# Poem
+
+For building instructions see `./poem/Makefile`.
+
+![Poem](https://github.com/cmichi/latex-template-collection/raw/master/images/poem.png)
