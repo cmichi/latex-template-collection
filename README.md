@@ -1,9 +1,9 @@
 # README
 
-This is a collection of LaTeX templates.
+This is a collection of LaTeX and XeTeX templates.
 
-There is still room for optimization (automatically increment 
-the invoice position, etc.), so please feel free to contribute!
+There is still room for optimization, so please feel free to contribute!
+
 
 ## Invoices
 
@@ -11,15 +11,22 @@ the invoice position, etc.), so please feel free to contribute!
 
 ![Invoice, Multiple pages](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice1.png)
 
+[Link to Single Page Invoice PDF](https://github.com/cmichi/latex-template-collection/raw/master/invoice-single-page/angebot.pdf),
+[Link to Multiple Page Invoice PDF](https://github.com/cmichi/latex-template-collection/raw/master/invoice-multiple-pages/angebot.pdf)
+
 
 ## Letter
 
-![Invoice, Single page](https://github.com/cmichi/latex-template-collection/raw/master/images/letter.png)
+![Letter](https://github.com/cmichi/latex-template-collection/raw/master/images/letter.png)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/letter/letter.pdf)
 
 
 ## University exercise
 
 ![University exercise](https://github.com/cmichi/latex-template-collection/raw/master/images/exercise.png)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/university-exercise/exercise.pdf)
 
 
 ## Presentation template
@@ -29,10 +36,14 @@ To compile the house.mp use ``mpost house.mp''.
 
 ![Presentation template](https://github.com/cmichi/latex-template-collection/raw/master/images/presentation.png)
 
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/presentation-beamer/Beamer.pdf)
 
-## Timesheet
+
+## Timesheet (Stundenzettel)
 
 ![Timesheet](https://github.com/cmichi/latex-template-collection/raw/master/images/timesheet.png)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/timesheet/timesheet.pdf)
 
 
 ## Poem
@@ -40,6 +51,8 @@ To compile the house.mp use ``mpost house.mp''.
 For building instructions see `./poem/Makefile`.
 
 ![Poem](https://github.com/cmichi/latex-template-collection/raw/master/images/poem.png)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/poem/poem.pdf)
 
 
 # License (MIT)
