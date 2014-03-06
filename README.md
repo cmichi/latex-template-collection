@@ -7,9 +7,9 @@ There is still room for optimization, so please feel free to contribute!
 
 ## Invoices
 
-![Invoice, Single page](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice0.png)
+[![Invoice, Single page](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice0.png)](https://github.com/cmichi/latex-template-collection/raw/master/invoice-single-page/angebot.pdf)
 
-![Invoice, Multiple pages](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice1.png)
+[![Invoice, Multiple pages](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice1.png)](https://github.com/cmichi/latex-template-collection/raw/master/invoice-multiple-pages/angebot.pdf)
 
 [Link to Single Page Invoice PDF](https://github.com/cmichi/latex-template-collection/raw/master/invoice-single-page/angebot.pdf),
 [Link to Multiple Page Invoice PDF](https://github.com/cmichi/latex-template-collection/raw/master/invoice-multiple-pages/angebot.pdf)
@@ -17,14 +17,14 @@ There is still room for optimization, so please feel free to contribute!
 
 ## Letter
 
-![Letter](https://github.com/cmichi/latex-template-collection/raw/master/images/letter.png)
+[![Letter](https://github.com/cmichi/latex-template-collection/raw/master/images/letter.png)](https://github.com/cmichi/latex-template-collection/raw/master/letter/letter.pdf)
 
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/letter/letter.pdf)
 
 
 ## University exercise
 
-![University exercise](https://github.com/cmichi/latex-template-collection/raw/master/images/exercise.png)
+[![University exercise](https://github.com/cmichi/latex-template-collection/raw/master/images/exercise.png)](https://github.com/cmichi/latex-template-collection/raw/master/university-exercise/exercise.pdf)
 
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/university-exercise/exercise.pdf)
 
@@ -34,14 +34,14 @@ There is still room for optimization, so please feel free to contribute!
 Using the LaTeX beamer class.
 To compile the house.mp use ``mpost house.mp''.
 
-![Presentation template](https://github.com/cmichi/latex-template-collection/raw/master/images/presentation.png)
+[![Presentation template](https://github.com/cmichi/latex-template-collection/raw/master/images/presentation.png)](https://github.com/cmichi/latex-template-collection/raw/master/presentation-beamer/Beamer.pdf)
 
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/presentation-beamer/Beamer.pdf)
 
 
 ## Timesheet (Stundenzettel)
 
-![Timesheet](https://github.com/cmichi/latex-template-collection/raw/master/images/timesheet.png)
+[![Timesheet](https://github.com/cmichi/latex-template-collection/raw/master/images/timesheet.png)](https://github.com/cmichi/latex-template-collection/raw/master/timesheet/timesheet.pdf)
 
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/timesheet/timesheet.pdf)
 
@@ -50,7 +50,7 @@ To compile the house.mp use ``mpost house.mp''.
 
 For building instructions see `./poem/Makefile`.
 
-![Poem](https://github.com/cmichi/latex-template-collection/raw/master/images/poem.png)
+[![Poem](https://github.com/cmichi/latex-template-collection/raw/master/images/poem.png)](https://github.com/cmichi/latex-template-collection/raw/master/poem/poem.pdf)
 
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/poem/poem.pdf)
 
