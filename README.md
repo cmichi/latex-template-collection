@@ -55,6 +55,13 @@ For building instructions see `./poem/Makefile`.
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/poem/poem.pdf)
 
 
+## Competition submission
+
+[![Competition submission](https://github.com/cmichi/latex-template-collection/raw/master/images/competition-submission.png)](https://github.com/cmichi/latex-template-collection/raw/master/competition-submission/application.pdf)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/competition-submission/application.pdf)
+
+
 # License (MIT)
 
 	Copyright (c) 
