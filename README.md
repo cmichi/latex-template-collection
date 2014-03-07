@@ -69,6 +69,13 @@ For building instructions see `./poem/Makefile`.
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/cv/cv.pdf)
 
 
+## Cheatsheet 
+
+[![Cheatsheet](https://github.com/cmichi/latex-template-collection/raw/master/images/cheatsheet.png)](https://github.com/cmichi/latex-template-collection/raw/master/cheatsheet/cheatsheet.pdf)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/cheatsheet/cheatsheet.pdf)
+
+
 # License (MIT)
 
 	Copyright (c) 

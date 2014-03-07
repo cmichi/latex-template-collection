@@ -1,0 +1,142 @@
+\documentclass[DIN, pagenumber=false, parskip=half]{scrartcl}
+ 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+    
+\usepackage[margin=0pt, landscape]{geometry}
+\usepackage{graphics}  
+\usepackage{color}
+\usepackage{url}
+   
+\usepackage[
+	colorlinks=false, 
+	pdftitle={Cheatsheet Template}, 
+	pdfauthor={Michael Mueller}, 
+	pdfsubject={Compilation of useful shortcuts.}, 
+	pdfkeywords={Random Software, Cheatsheet}
+]{hyperref}
+
+
+\setlength{\unitlength}{1mm}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+  
+\definecolor{mygray}{gray}{.75}
+\renewcommand{\dots}{\ \dotfill{}\ }
+  
+\title{Cheatsheet Template}
+\author{Michael Mueller} 
+\date{\today} 
+
+   
+\begin{document}
+
+\begin{picture}(297,210)
+	\put(10,200){
+		\begin{minipage}[t]{85mm}
+			\section*{Cheatsheet Template}
+			\paragraph{Window manager control} \ \\
+			
+			Client = Application window.\ \\
+
+			Mod4 + Ctrl + r\dots{}Restart awesome\\
+			Mod4 + Return\dots{}Start terminal in current tag\\
+			Mod4 + F1\dots{}Run terminal prompt\\
+			Mod4 + F4\dots{}Run Lua code prompt\\
+			%Mod4 + Ctrl + i\dots{}Print client class and instance\\
+
+					
+			
+			\paragraph{Clients} \ \\
+			
+			Mod4 + Shift + r	\dots{}Redraw the focused window\\
+			Mod4 + m\dots{}Maximize client\\
+			Mod4 + f\dots{}Set client fullscreen\\
+			Mod4 + Shift + c\dots{}Kill focused client\\ \\
+			
+			
+			Mod4 + 1\dots{}Go to Tag 1\\			
+			Mod4 + Ctrl + 1-9\dots{}Toggle tag view\\
+			Mod4 + t\dots{}Mark a client\\					
+			Mod4 + Shift + 1-9\dots{}Tag marked clients with tag\\
+			Mod4 + Shift + Ctrl + 1-9\dots{}Toggle tag on client\\
+			
+			
+			
+			\paragraph{Mouse} \ \\
+			
+			B1, B2, B3 = Mouse buttons 1--3.\ \\
+			
+			Mod4 + B1 on tag\dots{}Tag client with this tag\\
+			Mod4 + B1 on client\dots{}Move window\\
+			Mod4 + B3 on tag\dots{}Toggle this tag for client\\
+			Mod4 + B3 on client\dots{}Resize window\\
+			B3 clicked on tag\dots{}Add tag to current view\\
+		\end{minipage}
+	}
+
+	\put(105,190.5){
+		\begin{minipage}[t]{85mm}
+			\paragraph{Navigation} \ \\
+			
+			Mod4 + j\dots{}Focus next client\\
+			Mod4 + k\dots{}Focus previous client\\
+			Mod4 + u\dots{}Focus first urgent client\\
+			Mod4 + Left\dots{}View previous tag\\
+			Mod4 + Right\dots{}View next tag\\
+			Mod4 + 1-9\dots{}Switch to tag 1-9\\
+			Mod4 + Ctrl + j\dots{}Focus next screen\\
+			Mod4 + Ctrl + k\dots{}Focus previous screen\\
+			Mod4 + Esc\dots{}Focus previously selected tag set\\ \\
+					
+					
+					
+			\paragraph{Layout modification} \ \\
+			
+			Mod4 + Shift + k / j\dots{}Rotate clients around\\
+			Mod4 + h / l\dots{}Change master width by 5\%\\
+			Mod4 + Shift + h\dots{}Number of master windows +1\\
+			Mod4 + Shift + l\dots{}Number of master windows --1\\
+			Mod4 + Ctrl + h\dots{}Number of columns for non-master windows +1\\
+			Mod4 + Ctrl + l\dots{}Number of columns for non-master windows --1\\ \\
+			Mod4 + Space\dots{}Next layout\\
+			Mod4 + Shift + Space\dots{}Previous layout\\
+			Mod4 + Ctrl + Space\dots{}Floating master\\
+			Mod4 + Ctrl + Return\dots{}Swap focused client with master\\
+		\end{minipage}
+	}
+
+	\put(200,189){
+		\begin{minipage}[t]{85mm}
+			\paragraph{Important files} \ \\ \\
+			\texttt{~/.config/awesome/rc.lua}\\
+			\texttt{/etc/xdg/awesome/rc.lua}\\ \\
+
+
+			\paragraph{Links and information} \ \\ \\
+			\url{http://awesome.naquadah.org/}\\
+			\url{http://awesome.naquadah.org/wiki/}\\
+
+
+			\begin{picture}(0,10)
+			  	\linethickness{0,5mm}
+				\put(0,0){\color{mygray}\line(1,0){30}}
+			\end{picture}
+
+			\footnotesize{
+				Created by Michael M\"uller, 2010\\
+				\url{http://micha.elmueller.net/}\\
+				
+				Released under the MIT license.\\
+				
+				The \LaTeX{} source and license for\\
+				 this sheet can be found at github:\\
+				\url{http://github.com/cmichi/latex-template-collection}.
+			}
+		\end{minipage}
+	}
+\end{picture}
+
+
+
+\end{document}
