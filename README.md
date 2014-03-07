@@ -62,6 +62,13 @@ For building instructions see `./poem/Makefile`.
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/competition-submission/application.pdf)
 
 
+## Curriculum Vitae (CV, Tabellarischer Lebenslauf)
+
+[![CV](https://github.com/cmichi/latex-template-collection/raw/master/images/cv.png)](https://github.com/cmichi/latex-template-collection/raw/master/cv/cv.pdf)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/cv/cv.pdf)
+
+
 # License (MIT)
 
 	Copyright (c) 

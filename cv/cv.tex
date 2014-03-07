@@ -1,0 +1,163 @@
+% for further details and (very nice) examples see the official
+% documentation at: http://www.ctan.org/pkg/moderncv
+% the placeholder picture in this example is taken from the moderncv
+% package.
+
+\documentclass[11pt,a4paper]{moderncv}
+\usepackage[ngerman]{babel}
+\usepackage{verbatim} 
+
+% arguments: 'blue', 'orange', 'red', 'green', 'grey' 
+% and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} 
+
+% adjust page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths
+
+% adjust the column width
+\sethintscolumnlength{3cm}
+
+% personal data
+\firstname{Max}
+\familyname{Mustermann}
+
+% optional stuff, uncomment/remove these lines if not needed
+\address{Musterstr. 1}{12345 Musterstadt}
+\phone{+49 123 456 789}
+\email{max@mustermann.de}
+\extrainfo{http://max.mustermann.de}
+\photo[84pt]{picture/picture} 
+
+%\mobile{mobile}
+%\title{Resume title}
+%\fax{fax}
+%\quote{Everything not saved will be lost. ---\textit{Nintendo Quit Screen}}
+
+% uncomment to suppress automatic page numbering for CVs longer than one page
+%\nopagenumbers{}
+
+
+\begin{document}
+
+% default section title for publications is 'Literatur'. we want
+% to use 'Publikationen' instead.
+\renewcommand{\refname}{Publikationen} 
+
+\maketitle
+
+
+% personal section (optional)
+\section{Persönliche Daten}
+\cvline{Name}{Max Mustermann}
+\cvline{Geburtsdatum}{01.01.1970}
+\cvline{Geburtsort}{Musterstadt}
+
+
+\section{Bildung}
+\cventry{2009--2013}{B.Sc. Informatik}{Universität Musterstadt}{}{\textit{Deutschland}}{
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua.
+}
+\cventry{1999--2007}{Abitur}{Allgemeinbildendes Gymnasium Musterstadt}{}{\textit{Deutschland}}{
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua.
+}
+
+
+\section{Erfahrung}
+\cventry{2013--2014}{Wissenschaftliche Hilfskraft in der Forschung}{Universit\"at Musterstadt}{Musterstadt}{Deutschland}{
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua.
+}
+
+%\newpage{}
+
+\section{Sprachen}
+\cvlanguage{Deutsch}{Muttersprache}{}
+\cventry{Englisch}{Fließend}{in Wort und Schrift}{}{}{}
+\cventry{Französisch}{Gute Kenntnisse}{4 Jahre Schulbildung}{}{}{}
+
+
+\section{Fachkenntnisse}
+\cvline{Betriebssysteme}{Mac OS X, Linux, OpenBSD, Windows}
+\cvline{Programmier-\\sprachen}{Java, Delphi, Haskell, Prolog}
+\cvline{Skriptsprachen}{Python, PHP, JavaScript, Lua, Shellscript}
+\cvline{Dokumentensysteme}{XHTML, XML, XSD, XSLT, XSL-FO, \LaTeX{}}
+
+\newpage
+
+\section{Interessen}
+\cvline{Fotografie}{
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua.
+}
+\cvline{Freie Software}{Ich arbeite an einigen kleineren Projekten unter
+einer freien Lizenz. Diese sind online unter 
+\url{http://github.com/max-mustermann} verf\"ugbar.}
+
+
+\section{Verschiedenes}
+\cventry{2011--heute}{Lorem ipsum}{Deutschland}{}{}{
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua.
+}
+\cventry{2009--heute}{Lorem Ipsum Club e.V.}{Deutschland}{}{}{
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua.
+}
+\cventry{2007--2009}{Lorem Ipsum}{Deutschland}{}{}{
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua.
+}
+
+% Publications from a BibTeX file without 
+% multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+% for BibTeX numerical labels
+
+\nocite{*}
+% unsrt means the publications are displayed in the order in which
+% they appear in the publications.bib file
+\bibliographystyle{unsrt}
+\bibliography{publications}
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}
+
+
+% remove the comment-tag to diplay a signature under your cv
+\begin{comment}
+	\begin{flushleft}
+	\vspace{2cm}\hspace{3.5cm}
+	Musterstadt, den \today 
+	\end{flushleft}
+
+
+	\vspace{1cm} \hspace{3.5cm}
+	% you could include a scanned signature here
+	%\includegraphics[scale=0.75]{}\\
+	Max Mustermann
+\end{comment}
+
+
+\end{document}
+
+
+
