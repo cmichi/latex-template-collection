@@ -1,8 +1,9 @@
 # README
 
-This is a collection of LaTeX and XeTeX templates.
-
+This is a collection of LaTeX and XeTeX templates.  
 There is still room for optimization, so please feel free to contribute!
+
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/1421415/cmichilatex-template-collection-on-GitHub) 
 
 
 ## Invoices
