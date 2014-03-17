@@ -77,6 +77,15 @@ For building instructions see `./poem/Makefile`.
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/cheatsheet/cheatsheet.pdf)
 
 
+# Further resources
+
+When searching for templates, I have found these sites to be quite helpful:
+
+ * [http://www.latextemplates.com/](http://www.latextemplates.com/): a nice
+   collection, a lot of various templates.
+ * [Typesetting your academic CV in LaTeX](http://nitens.org/taraborelli/cvtex)
+
+
 # License (MIT)
 
 	Copyright (c) 
