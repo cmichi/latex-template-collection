@@ -65,9 +65,9 @@ For building instructions see `./poem/Makefile`.
 
 ## Curriculum Vitae (CV, Tabellarischer Lebenslauf)
 
-[![CV](https://github.com/cmichi/latex-template-collection/raw/master/images/cv.png)](https://github.com/cmichi/latex-template-collection/raw/master/cv/cv.pdf)
+[![CV](https://github.com/cmichi/latex-template-collection/raw/master/images/cv.png)](https://github.com/cmichi/latex-template-collection/raw/master/curriculum-vitae/cv.pdf)
 
-[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/cv/cv.pdf)
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/curriculum-vitae/cv.pdf)
 
 
 ## Cheatsheet 
