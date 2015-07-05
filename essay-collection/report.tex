@@ -1,0 +1,78 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass{report}
+
+\title{FKR Collection}
+\author{Michael Müller}
+\date{\today}
+	
+% big font for sections
+\usepackage{sectsty}
+\sectionfont{\LARGE}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{hyperref}
+
+% \begin{comment} ... \end{comment{}
+\usepackage{verbatim}
+
+\setlength{\parskip}{0pt}
+
+\makeatletter
+\renewcommand{\paragraph}{
+  \@startsection{paragraph}{4}
+    {\z@}{1.25ex \@plus 1ex \@minus .2ex}{-1em}
+      {\normalfont\normalsize\bfseries}
+      }
+      \makeatother
+
+\usepackage[
+	sorting=none,
+	minbibnames=8,
+	maxbibnames=9,
+	block=space,
+	backend=biber
+]{biblatex}
+\bibliography{publications}
+
+
+\usepackage{parskip}
+
+\usepackage{lipsum}
+
+\begin{document}
+
+\newpage
+
+\maketitle
+
+\newpage
+
+\renewcommand{\contentsname}{Table of Content}
+\tableofcontents
+
+
+%=================
+\include{sections/introduction}
+\include{sections/nulla-ullamcorper}
+\include{sections/nulla-ullamcorper}
+
+% we use input to include the conclusion, in order to
+% get the bibliography and conclusion on the same page
+\input{sections/conclusion}
+
+
+%=================
+\section{Bibliography}
+\label{bib}
+
+% \nocite is used to display all references from publications.bib -- even
+% if they were not cited. 
+\nocite{*} 
+
+\printbibliography[heading=none]
+
+\end{document}
