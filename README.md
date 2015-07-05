@@ -16,11 +16,31 @@ There is still room for optimization, so please feel free to contribute!
 [Link to Multiple Page Invoice PDF](https://github.com/cmichi/latex-template-collection/raw/master/invoice-multiple-pages/angebot.pdf)
 
 
-## Letter
+## Competition submission
 
-[![Letter](https://github.com/cmichi/latex-template-collection/raw/master/images/letter.png)](https://github.com/cmichi/latex-template-collection/raw/master/letter/letter.pdf)
+[![Competition submission](https://github.com/cmichi/latex-template-collection/raw/master/images/competition-submission.png)](https://github.com/cmichi/latex-template-collection/raw/master/competition-submission/application.pdf)
 
-[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/letter/letter.pdf)
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/competition-submission/application.pdf)
+
+
+## Curriculum Vitae (CV, Tabellarischer Lebenslauf)
+
+[![CV](https://github.com/cmichi/latex-template-collection/raw/master/images/cv.png)](https://github.com/cmichi/latex-template-collection/raw/master/curriculum-vitae/cv.pdf)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/curriculum-vitae/cv.pdf)
+
+The `curriculum-vitae/` folder contains a Makefile, if you use something else to compile the
+document be sure to use the XeLaTeX/XeTeX engine.
+This template uses the font Minion Pro. If you don't have it installed on
+your system uncomment the line 112 `\setmainfont{Minion Pro}` in the `cv.tex`
+file.
+
+
+## University Essay Collection
+
+[![Essay Collection](https://github.com/cmichi/latex-template-collection/raw/master/images/essay-collection.png)](https://github.com/cmichi/latex-template-collection/raw/master/essay-collection/report.pdf)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/essay-collection/report.pdf)
 
 
 ## University exercise
@@ -33,7 +53,7 @@ There is still room for optimization, so please feel free to contribute!
 ## Presentation template
 
 Using the LaTeX beamer class.
-To compile the house.mp use ``mpost house.mp''.
+To compile the house.mp use `mpost house.mp`.
 
 [![Presentation template](https://github.com/cmichi/latex-template-collection/raw/master/images/presentation.png)](https://github.com/cmichi/latex-template-collection/raw/master/presentation-beamer/Beamer.pdf)
 
@@ -56,25 +76,18 @@ For building instructions see `./poem/Makefile`.
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/poem/poem.pdf)
 
 
-## Competition submission
-
-[![Competition submission](https://github.com/cmichi/latex-template-collection/raw/master/images/competition-submission.png)](https://github.com/cmichi/latex-template-collection/raw/master/competition-submission/application.pdf)
-
-[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/competition-submission/application.pdf)
-
-
-## Curriculum Vitae (CV, Tabellarischer Lebenslauf)
-
-[![CV](https://github.com/cmichi/latex-template-collection/raw/master/images/cv.png)](https://github.com/cmichi/latex-template-collection/raw/master/curriculum-vitae/cv.pdf)
-
-[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/curriculum-vitae/cv.pdf)
-
-
 ## Cheatsheet 
 
 [![Cheatsheet](https://github.com/cmichi/latex-template-collection/raw/master/images/cheatsheet.png)](https://github.com/cmichi/latex-template-collection/raw/master/cheatsheet/cheatsheet.pdf)
 
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/cheatsheet/cheatsheet.pdf)
+
+
+## Letter
+
+[![Letter](https://github.com/cmichi/latex-template-collection/raw/master/images/letter.png)](https://github.com/cmichi/latex-template-collection/raw/master/letter/letter.pdf)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/letter/letter.pdf)
 
 
 # Further resources
