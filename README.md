@@ -43,7 +43,7 @@ file.
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/essay-collection/report.pdf)
 
 
-## Paper 
+## Academic Paper/Essay
 
 [![Paper/Proposal Template](https://github.com/cmichi/latex-template-collection/raw/master/images/paper.png)](https://github.com/cmichi/latex-template-collection/raw/master/paper/paper.pdf)
 
