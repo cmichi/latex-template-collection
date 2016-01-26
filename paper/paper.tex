@@ -1,0 +1,54 @@
+\documentclass[a4paper, twocolumn]{article}
+
+% font handling
+\usepackage{fontspec}
+
+% uncomment (or change) if you don't have this particular font installed
+\setmainfont{Palatino Linotype}
+
+% for setting the linespace (\setstretch)
+\usepackage{setspace}
+
+% distance between the columns
+\setlength{\columnsep}{1cm}
+
+% for compactitem
+\usepackage{paralist}
+
+% for comments
+\usepackage{verbatim}
+
+\usepackage[
+	sorting=none,
+	minbibnames=8,
+	maxbibnames=9,
+	block=space,
+	backend=biber
+]{biblatex}
+\bibliography{bibliography}
+
+\usepackage{lipsum}
+
+\begin{document}
+
+%=============================
+\input{misc/title}
+{
+	\setstretch{1.1}
+	\input{misc/abstract}
+}
+\newpage
+
+%=============================
+\input{sections/introduction}
+\input{sections/concept}
+\input{sections/conclusion}
+
+\section{References}
+% the \nocite command leads to the whole bibliography
+% being displayed (without any \cite commands necessary).
+% remove this command in order to get the "normal" behavior.
+\nocite{*}
+\printbibliography[heading=none]
+
+\end{document}

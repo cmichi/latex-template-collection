@@ -43,6 +43,23 @@ file.
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/essay-collection/report.pdf)
 
 
+## Paper 
+
+[![Paper/Proposal Template](https://github.com/cmichi/latex-template-collection/raw/master/images/paper.png)](https://github.com/cmichi/latex-template-collection/raw/master/paper/paper.pdf)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/paper/paper.pdf)
+
+The `paper/` folder contains a Makefile. In order to compile the entire
+paper execute `make biber`. If you use something else to compile the
+document be sure to use the XeLaTeX/XeTeX engine.
+This template uses the font Palatino Linotype, if you don't have it installed on
+your system uncomment line 7 `\setmainfont{Palatino Linotype}` in the 
+file `paper.tex`.
+
+I built the template for my thesis proposal, it is heavily inspired by an old
+ACM template which was used in e.g. the classical [UNIX paper](http://dl.acm.org/citation.cfm?id=361061).
+
+
 ## University exercise
 
 [![University exercise](https://github.com/cmichi/latex-template-collection/raw/master/images/exercise.png)](https://github.com/cmichi/latex-template-collection/raw/master/university-exercise/exercise.pdf)
