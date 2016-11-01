@@ -91,25 +91,21 @@
 	\csappto{blx@bbx@\thefield{entrytype}}{\iffieldundef{userb}{}{\printfield{userb}}}
 }
 
-% the following command is used to emphasize a certain author within the publications
-\newcommand{\makeauthorbold}[1]{%
-\DeclareNameFormat{author}{%
-  \edef\tempname{{#1}}%
-  \ifnumequal{\value{listcount}}{1}
-    {\ifnumequal{\value{liststop}}{1}
-      {\expandafter\ifstrequal\tempname{##1}{\textbf{##3\addspace ##1\addcomma\isdot}}{##3\addspace ##1\addcomma\isdot}}
-      {\expandafter\ifstrequal\tempname{##1}{\textbf{##3\addspace ##1}}{##3\addspace ##1}}}
-    {\ifnumless{\value{listcount}}{\value{liststop}}
-      {\expandafter\ifstrequal\tempname{##1}{\textbf{\addcomma\addspace ##3\addspace ##1}}{\addcomma\addspace ##3\addspace ##1}}
-      {\expandafter\ifstrequal\tempname{##1}{\textbf{\addcomma\addspace ##3\addspace ##1\addcomma\isdot}}{\addcomma\addspace ##3\addspace ##1\addcomma\isdot}}%
-    }%
-}%
+\renewcommand*{\mkbibnamegiven}[1]{%
+	\ifitemannotation{highlight}
+	{\textbf{#1}}
+	{#1}}
+
+	\renewcommand*{\mkbibnamefamily}[1]{%
+	\ifitemannotation{highlight}
+	{\textbf{#1}}
+	{#1}
 }
-\makeauthorbold{Asimov}
+
 
 % Minion Pro is used as the main font, if you don't
 % have it installed uncomment this line or choose another pretty font
-\setmainfont{Minion Pro}
+\setmainfont[Numbers=OldStyle]{Minion Pro}
 
 % the moderncv package will populate a lot of the pdf meta-information.
 % this can be used to change some of these infos.
@@ -179,6 +175,7 @@
 	Phasellus adipiscing semper elit. Proin fermentum massa ac quam.
 }
 
+\newpage
 \spacesection
 \section{Expertise}
 \subsection{Chemistry}
