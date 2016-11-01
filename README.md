@@ -3,17 +3,10 @@
 This is a collection of LaTeX and XeTeX templates.  
 There is still room for optimization, so please feel free to contribute!
 
+Some of the templates use proprietary fonts. If you have problems compiling
+just remove the command which sets a custom font.
+
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/1421415/cmichilatex-template-collection-on-GitHub) 
-
-
-## Invoices
-
-[![Invoice, Single page](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice0.png)](https://github.com/cmichi/latex-template-collection/raw/master/invoice-single-page/angebot.pdf)
-
-[![Invoice, Multiple pages](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice1.png)](https://github.com/cmichi/latex-template-collection/raw/master/invoice-multiple-pages/angebot.pdf)
-
-[Link to Single Page Invoice PDF](https://github.com/cmichi/latex-template-collection/raw/master/invoice-single-page/angebot.pdf),
-[Link to Multiple Page Invoice PDF](https://github.com/cmichi/latex-template-collection/raw/master/invoice-multiple-pages/angebot.pdf)
 
 
 ## Competition submission
@@ -58,6 +51,23 @@ file `paper.tex`.
 
 I built the template for my thesis proposal, it is heavily inspired by an old
 ACM template which was used in e.g. the classical [UNIX paper](http://dl.acm.org/citation.cfm?id=361061).
+
+
+## XeTeX Letter
+
+[![XeTeX Letter](https://github.com/cmichi/latex-template-collection/raw/master/images/xetex-letter.png)](https://github.com/cmichi/latex-template-collection/raw/master/xetex-letter/xetex-letter.pdf)
+
+[Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/xetex-letter/xetex-letter.pdf)
+
+
+## Invoices
+
+[![Invoice, Single page](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice0.png)](https://github.com/cmichi/latex-template-collection/raw/master/invoice-single-page/angebot.pdf)
+
+[![Invoice, Multiple pages](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice1.png)](https://github.com/cmichi/latex-template-collection/raw/master/invoice-multiple-pages/angebot.pdf)
+
+[Link to Single Page Invoice PDF](https://github.com/cmichi/latex-template-collection/raw/master/invoice-single-page/angebot.pdf),
+[Link to Multiple Page Invoice PDF](https://github.com/cmichi/latex-template-collection/raw/master/invoice-multiple-pages/angebot.pdf)
 
 
 ## University exercise
