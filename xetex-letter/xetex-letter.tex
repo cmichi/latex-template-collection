@@ -1,63 +1,39 @@
-\documentclass[11pt,a4paper, final]{moderncv}
-
-\usepackage{color}
-\usepackage{fontspec}
-\moderncvtheme{classic}
-
-% scale the page layout
-\usepackage[scale=0.75]{geometry}
-
-% change width of the column with the dates
-\setlength{\hintscolumnwidth}{2.5cm} 
-
-% required when changing page layout lengths
-\AtBeginDocument{\recomputelengths} 
-\usepackage{xunicode}
-\usepackage{xltxtra}
-\usepackage[utf8]{inputenc}
-
-% german word break/hyphenation rules
-\usepackage[ngerman]{babel}
-
-% insert dummy text (used in the letter)
-\usepackage{lipsum} 
+\documentclass{xetex-letter}
 
 % Minion Pro is used as the main font, if you don't
 % have it installed uncomment this line or choose another pretty font
 \setmainfont[Numbers=OldStyle]{Minion Pro}
 
-% for the icons (telephone, globe). i found the icons provided by the
-% fontawesome package prettier than the standard moderncv icons.
-\usepackage{fontawesome}
+% senders personal data
+\def \first {Isac}
+\def \last {Asimov}
+\def \street {Random St. 21}
+\def \city {9873 New York}
 
-% personal data
-\firstname{Isaac}
-\familyname{Asimov}
-\address{Random St. 21}{9873 New York}
+% recipient
+\def \recipientHighlight {Human Resources}
+\def \recipientRest {Some Company Ltd. \\ Some Street 123 \\ 12345 Some City}
 
-% i use the extrainfo command for additional information, since i 
-% want to use custom icons and have finer control over spacing.
-\extrainfo{
-	\faPhone\hspace{0.3em}+49 137 3717321\\
-	{\small\faEnvelope}\hspace{0.3em}isaac@asimov.com\\
-	\faGlobe\hspace{0.3em}http://isaac.asimov.com
-}
+% just for the blindtext
+\usepackage{lipsum} 
 
+\usepackage{polyglossia}
+\setmainlanguage{english}
 
-%===========================
 \begin{document}
 
-\recipient{Human Resources}{Some Company Ltd.\\Some Street 123\\12345 Some City} 
-\date{\today}
-\opening{Dear Sir or Madam,}
+% to show the folding marks
+\foldingmarks
+
+\letterstart
+
+\salutation{Dear Sir or Madam,}
+
+\lipsum[1-2]
+
 \closing{Sincerely yours,}
 \enclosure[Attached]{curriculum vit\ae{}}
 
-\makelettertitle
-
-\lipsum[1-3] 
-
-\makeletterclosing
-
+\letterend
 
 \end{document}

@@ -59,6 +59,9 @@ ACM template which was used in e.g. the classical [UNIX paper](http://dl.acm.org
 
 [Link to PDF](https://github.com/cmichi/latex-template-collection/raw/master/xetex-letter/xetex-letter.pdf)
 
+You might have to compile the file two times for the folding marks to 
+show up.
+
 
 ## Invoices
 
