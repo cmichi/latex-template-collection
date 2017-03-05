@@ -65,9 +65,9 @@ show up.
 
 ## Invoices
 
-[![Invoice, Single page](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice0.png)](https://github.com/cmichi/latex-template-collection/raw/master/invoice-single-page/angebot.pdf)
+[![Invoice, Single page](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice1.png)](https://github.com/cmichi/latex-template-collection/raw/master/invoice-single-page/angebot.pdf)
 
-[![Invoice, Multiple pages](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice1.png)](https://github.com/cmichi/latex-template-collection/raw/master/invoice-multiple-pages/angebot.pdf)
+[![Invoice, Multiple pages](https://github.com/cmichi/latex-template-collection/raw/master/images/invoice0.png)](https://github.com/cmichi/latex-template-collection/raw/master/invoice-multiple-pages/angebot.pdf)
 
 [Link to Single Page Invoice PDF](https://github.com/cmichi/latex-template-collection/raw/master/invoice-single-page/angebot.pdf),
 [Link to Multiple Page Invoice PDF](https://github.com/cmichi/latex-template-collection/raw/master/invoice-multiple-pages/angebot.pdf)
