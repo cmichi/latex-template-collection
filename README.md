@@ -129,6 +129,11 @@ When searching for templates, I have found these sites to be quite helpful:
  * [Typesetting your academic CV in LaTeX](http://nitens.org/taraborelli/cvtex)
 
 
+# Contributors
+
+ * Pushpal Sidhu, f14df7ff81cdda18a2685644843836522358a4b3
+
+
 # License (MIT)
 
 	Copyright (c) 
