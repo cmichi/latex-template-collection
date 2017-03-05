@@ -131,7 +131,7 @@ When searching for templates, I have found these sites to be quite helpful:
 
 # Contributors
 
- * Pushpal Sidhu, f14df7ff81cdda18a2685644843836522358a4b3
+ * [Pushpal Sidhu](https://github.com/cmichi/latex-template-collection/commit/f14df7ff81cdda18a2685644843836522358a4b3)
 
 
 # License (MIT)
