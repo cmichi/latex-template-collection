@@ -1,0 +1,98 @@
+% My template for document with custom margins, a nice looking titlepage 
+% and header & footer.
+% Feel free to use it for your own documents.
+% Jack-Benny Persson
+
+\documentclass[11pt,a4paper]{article} 
+\usepackage[table]{xcolor}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.54cm,rmargin=2.54cm}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{Wheather report}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
+
+
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\vspace*{3.5 cm}
+\textsc{\LARGE Wheather report}\\[1.5cm]
+
+
+\HRule \\[0.5cm]
+{ \huge \bfseries Week 18}\\[0.4cm]
+\HRule \\[1.5cm]
+
+\textsc{\Large Draft 1}\\[0.5cm]
+\textsc{\Large 2012-05-05}\\[0.5cm]
+
+\end{center}
+\end{titlepage}
+
+\tableofcontents
+\pagebreak
+
+\section{Introduction}
+
+A sample \LaTeX\ document to demonstrate. Can be used as a template.
+
+
+\subsection{Nice wheater all week long}
+
+All week we'll have really nice wheater with lots of sunshine and warm temperature for the month.
+Some thunder may occur in the afternoons.
+And that concludes the summary of the weather.
+
+\subsubsection{Thunder may occur}
+
+As we said earlier, some thunder may occur.
+
+And in this new paragraph, well yada yada yada
+And som bla bla bla.
+
+\subsection{Blah blah blah}
+
+Yada yada yada.
+
+\textit{Blah blah blah?}
+
+
+\section{Some mathematics}
+
+We can also show of some math in \LaTeX\
+
+\(2x+1=5\) is \(x=2\)
+
+And some more, like this \(x+x=y\)
+
+
+\pagebreak
+
+\section{Tables}
+Here I will show a simple table.
+
+\begin{table}[h]
+\begin{center}
+    \begin{tabular}{ | l | l | l | p{7cm} |}
+    \hline
+    \cellcolor[gray]{0.9}\textbf{Day} & 
+    \cellcolor[gray]{0.9}\textbf{Min Temp} & 
+    \cellcolor[gray]{0.9}\textbf{Max Temp} & 
+    \cellcolor[gray]{0.9}\textbf{Summary} \\ \hline
+    Monday & 12C & 23C & Sunshine all day long.  \\ \hline
+    Tuesday & 15C & 20C & Some clouds, other than that nice weahter. \\ \hline
+    Wednesday & 10C & 20C & Some rain and possibly thunder during the evening. \\ \hline
+    \end{tabular}
+\end{center}
+\end{table}
+And thats the weather report for the week. Nice huh? In a table and everything with the top row in gray and all.
+\end{document}
+
