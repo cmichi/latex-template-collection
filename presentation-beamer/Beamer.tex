@@ -22,7 +22,7 @@
 \usepackage[framed,numbered]{mcode}
 \usepackage{color}
 \definecolor{light-gray}{gray}{0.80}
-  
+
 % use {\mono lorem} to set something in monospace
 \newcommand{\mono}[1]{\ttfamily\fontsize{14}{14}\selectfont #1}
 
@@ -36,24 +36,24 @@
 \DeclareGraphicsRule{*}{mps}{*}{}
 
 
-\title{\LaTeX{} Beamerclass Presentation\\Template}   
-\author{Max Mustermann} 
-\date{\today} 
+\title{\LaTeX{} Beamerclass Presentation\\Template}
+\author{Max Mustermann}
+\date{\today}
 
 
 %===================================
 \begin{document}
 
-\frame{\titlepage} 
+\frame{\titlepage}
 
-\frame{\frametitle{Table of contents}\tableofcontents} 
+\frame{\frametitle{Table of contents}\tableofcontents}
 
 
 %===================================
-\section{Introduction} 
+\section{Introduction}
 \subsection{About Me}
 
-\frame{\frametitle{About Me} 
+\frame{\frametitle{About Me}
 	\begin{itemize}
 		\item Who am I?\\ \ \\
 		
@@ -62,7 +62,7 @@
 }
 
 
-\frame{\frametitle{What is this about?} 
+\frame{\frametitle{What is this about?}
 	\begin{figure}[ht]
 		\centering{
 			\Large Creative Coding
@@ -71,7 +71,7 @@
 }
 
 
-\frame{\frametitle{Centered Image} 
+\frame{\frametitle{Centered Image}
 	\begin{figure}[ht]
 		\centering{
 			\includegraphics[scale=.45]{content/processing.png}
@@ -82,14 +82,14 @@
 
 \frame{\frametitle{Large Image}
 	\includegraphics[scale=.38]{content/twitterwall.png}
-	
+
 	\vfill
-	\hfill\scriptsize{Source: \url{https://github.com/cmichi/twitterwall}}	
+	\hfill\scriptsize{Source: \url{https://github.com/cmichi/twitterwall}}
 }
 
 
 %===================================
-\section{Content} 
+\section{Content}
 \subsection{First Content}
 \frame{\frametitle{Some stuff}
 	\begin{itemize}
@@ -97,7 +97,7 @@
 		\item Algorithmen entwerfen
 		\item Parameter \& Codeanpassung
 		\item Archtitektur, Produktdesign
-	\end{itemize} 
+	\end{itemize}
 }
 
 
@@ -105,11 +105,11 @@
 	\begin{itemize}
 		\item 2D / 3D Primitives
 		\item PFont, PImage, \dots{}
-		\item Input, Output\\ \ \\ 
-		
+		\item Input, Output\\ \ \\
+
 		\item + enorm viele Librarys
 		\item + viele Beispiele
-	\end{itemize} 
+	\end{itemize}
 }
 
 
@@ -118,22 +118,22 @@
 	\frametitle{Some Code}
 
 	\begin{lstlisting}[language=Java, frame=single,
-				% width of the box: linewidth=6.5cm, 
+				% width of the box: linewidth=6.5cm,
 				basicstyle=\ttfamily\fontsize{10}{12}\selectfont,
 				escapechar=\%]
-		%\Hilight%void setup() 
+		%\Hilight%void setup()
 		{
-		  size(250, 250); 
+		  size(250, 250);
 		  smooth();
 		}
-				
-		void draw() 
+
+		void draw()
 		{
 		  background(0);
-		  ellipse(width/2, height/2, 
+		  ellipse(width/2, height/2,
 		          30, 30);
-		}		
-	\end{lstlisting}	
+		}
+	\end{lstlisting}
 \end{frame}
 
 
@@ -143,19 +143,19 @@
 	\begin{lstlisting}[language=Java, frame=single,
 				basicstyle=\ttfamily\fontsize{10}{12}\selectfont,
 				escapechar=\%]
-		void setup() 
+		void setup()
 		{
-		%\Hilight%  size(250, 250); 
+		%\Hilight%  size(250, 250);
 		  smooth();
 		}
-				
-		void draw() 
+
+		void draw()
 		{
 		  background(0);
-		  ellipse(width/2, height/2, 
+		  ellipse(width/2, height/2,
 		          30, 30);
-		}		
-	\end{lstlisting}	
+		}
+	\end{lstlisting}
 \end{frame}
 
 
@@ -180,9 +180,9 @@
 
 \frame{\frametitle{Was brauchen wir?}
 	\begin{itemize}
-		\item Stream: {\mono traceroute} nach Processing		
+		\item Stream: {\mono traceroute} nach Processing
 		\item Separater Thread im Hauptprogramm
-	\end{itemize} 
+	\end{itemize}
 }
 
 
@@ -198,8 +198,8 @@
 \frame{\frametitle{Wikileaks}
 	\begin{itemize}
 		\item 28. November 2010: Diplomatic cable release
-		\item 2. Dezember 2010: EveryDNS\\ \ \\		
-		
+		\item 2. Dezember 2010: EveryDNS\\ \ \\
+
 		\item ``\textit{Wikileaks is currently under heavy attack.}''
 	\end{itemize}
 }
@@ -207,7 +207,7 @@
 
 %===================================
 \section{The End}
-\frame{\frametitle{Weiterführendes} 
+\frame{\frametitle{Weiterführendes}
 
 	\begin{block}{Online}
 	\begin{itemize}
@@ -224,7 +224,7 @@
 	\end{block}
 }
 
-\frame{\frametitle{Software used} 
+\frame{\frametitle{Software used}
 	\begin{block}{Umgebung}
 		Mac OS X, vim
 	\end{block}
@@ -236,7 +236,7 @@
 	\begin{block}{Grafiken}
 		METAPOST
 	\end{block}
-	
+
 	\vfill
 	Slides are available on \url{http://github.com/cmichi}
 }

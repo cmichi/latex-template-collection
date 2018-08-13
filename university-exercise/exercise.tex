@@ -36,24 +36,24 @@ SoSe 2011 \hfill Michael Müller\\
 
 \mysubsection{1}{SQL-Abfrage}
 \begin{lstlisting}
-SELECT 
-	TeileNr, Farbe, MIN(Preis) AS niedrigster_preis, 
-	MAX(Preis) AS hoechster_preis, 
-	MAX(Preis) - MIN(Preis) AS Differenz 
-FROM 
-	Liefert 
-WHERE 
+SELECT
+	TeileNr, Farbe, MIN(Preis) AS niedrigster_preis,
+	MAX(Preis) AS hoechster_preis,
+	MAX(Preis) - MIN(Preis) AS Differenz
+FROM
+	Liefert
+WHERE
 	LiefNr <> 0
-GROUP BY 
-	TeileNr, Farbe 
+GROUP BY
+	TeileNr, Farbe
 \end{lstlisting}
 
 \mysubsection{2}{SQL-Abfrage}
 \begin{lstlisting}
-SELECT 
+SELECT
 	TeileNr
-FROM 
-	Liefert 
+FROM
+	Liefert
 \end{lstlisting}
 
 
