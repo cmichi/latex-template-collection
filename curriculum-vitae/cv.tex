@@ -11,10 +11,10 @@
 \usepackage[scale=0.75]{geometry}
 
 % change width of the column with the dates
-\setlength{\hintscolumnwidth}{2.5cm} 
+\setlength{\hintscolumnwidth}{2.5cm}
 
 % required when changing page layout lengths
-\AtBeginDocument{\recomputelengths} 
+\AtBeginDocument{\recomputelengths}
 \usepackage{xunicode}
 \usepackage{xltxtra}
 \usepackage[utf8]{inputenc}
@@ -23,10 +23,10 @@
 \usepackage[ngerman]{babel}
 
 % insert dummy text (used in the letter)
-\usepackage{lipsum} 
+\usepackage{lipsum}
 
 % used for \begin{comment}...\end{comment}
-\usepackage{verbatim} 
+\usepackage{verbatim}
 
 % use guilllemets in bibliography
 \usepackage[babel,german=guillemets]{csquotes}
@@ -75,8 +75,8 @@
 \DeclareFieldFormat{usera}{\color{color1}[\href{#1}{\textsc{doi}}]}
 \AtEveryBibitem{
 	% put [DOI] stuff at the end of a publication entry
-	\csappto{blx@bbx@\thefield{entrytype}}{% 
-		\iffieldundef{usera}{ 
+	\csappto{blx@bbx@\thefield{entrytype}}{%
+		\iffieldundef{usera}{
 			% this gets invoked, once nothing is supplied
 			% via the mypdf or mydoi value.
 			% you could e.g. display a default thing here.
@@ -123,7 +123,7 @@
 \familyname{Asimov}
 \address{Random St. 21}{9873 New York}
 
-% i use the extrainfo command for additional information, since i 
+% i use the extrainfo command for additional information, since i
 % want to use custom icons and have finer control over spacing.
 \extrainfo{
 	\faPhone\hspace{0.3em}+49 137 3717321\\
@@ -161,10 +161,10 @@
 \subsection{Academic Services}
 \cventry{\textsc{1958--present}}{Advisor}{Boston University School of Medicine}{}{}{
 	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus
-	elit, vestibulum ut, placerat ac, adipiscing vitae, felis. 
+	elit, vestibulum ut, placerat ac, adipiscing vitae, felis.
 }
 \cventry{\textsc{1951--1958}}{Advisor}{Boston University School of Medicine}{}{}{
-	Pellentesque cursus luctus mauris. Nulla malesuada porttitor diam. 
+	Pellentesque cursus luctus mauris. Nulla malesuada porttitor diam.
 	Donec felis erat, congue non, volutpat at, tincidunt tristique, libero.
 }
 
@@ -195,7 +195,7 @@
 \section{Interests}
 \cvline{Adipiscing}{
 	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus
-	elit, vestibulum ut, placerat ac, adipiscing vitae, felis. 
+	elit, vestibulum ut, placerat ac, adipiscing vitae, felis.
 }
 \cvline{Vestibulum}{
 	Maecenas lacinia. Nam ipsum ligula, eleifend at, accumsan nec, suscipit a,
@@ -229,7 +229,7 @@
 % this part is a simple cover letter
 \clearpage
 
-\recipient{Human Resources}{Some Company Ltd.\\Some Street 123\\12345 Some City} 
+\recipient{Human Resources}{Some Company Ltd.\\Some Street 123\\12345 Some City}
 \date{\today}
 \opening{Dear Sir or Madam,}
 \closing{Sincerely yours,}
@@ -237,7 +237,7 @@
 
 \makelettertitle
 
-\lipsum[1-3] 
+\lipsum[1-3]
 
 \makeletterclosing
 
